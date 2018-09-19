@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Đăng ký tài khoản mới</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+      <div class="row">
+        <div class="col-lg-offset-2">
+          <%= form_for @user, html: {class: "form-horizontal"} do |f| %>
+            <div class="form-group">
+              <%= f.label :name, "Username", class: "col-md-2 control-label" %>
+              <div class="col-md-6">
+                <%= f.text_field :name, class: "form-control", placeholder: "Nhập user name" %>
+              </div>
+            </div>
+            <div class="form-group">
+              <%= f.label :password, "Password", class: "col-md-2 control-label" %>
+              <div class="col-md-6">
+                <%= f.password_field :password, class: "form-control", placeholder: "Nhập password" %>
+              </div>
+            </div>
+            <div class="form-group">
+              <%= f.label :password_confirmation, "Xác nhận Password", class: "col-md-2 control-label" %>
+              <div class="col-md-6">
+                <%= f.password_field :password_confirmation, class: "form-control", placeholder: "Xác nhận password" %>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-lg-offset-4">
+                <%= f.submit "Đăng ký", class: "btn btn-success" %>
+              </div>
+            </div>
+          <% end %>
+        </div>
+      </div>
+
+    </body>
+</html>
