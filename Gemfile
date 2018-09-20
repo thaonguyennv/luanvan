@@ -64,3 +64,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bcrypt'
 gem 'sprockets-rails', require: 'sprockets/railtie'
 gem 'bootstrap-sass', '>=3.3.6'
+
+group :production do
+  gem "pg",             "~> 0.18"
+  gem "rails_12factor", "0.0.2"
+end
