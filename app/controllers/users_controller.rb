@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
 
   def index
-    #code
+    @users = User.all
   end
 
   def new

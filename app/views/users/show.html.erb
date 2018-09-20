@@ -11,8 +11,11 @@
           <div class="text-left">
             <label><%= @user.name %></label>
           </div>
-          <%= link_to "Logout", logout_path, method: :delete %>
+          <%= link_to "Đăng xuất", logout_path, method: :delete %>
         </div>
+      </div>
+      <div class="col-lg-offset-3 col-lg-6">
+        <%= link_to "Danh sách Users", users_path %>
       </div>
     </div>
   </body>
