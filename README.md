@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# luanvan
+>>>>>>> eeadb73a985af5b0e7c37e0c6e36df8cbb75a1a6
