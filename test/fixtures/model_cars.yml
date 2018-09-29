@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  model: MyString
+  no_seat: 1
+  factory_price: 9.99
+
+two:
+  model: MyString
+  no_seat: 1
+  factory_price: 9.99

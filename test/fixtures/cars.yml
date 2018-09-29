@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  licensePlate: MyString
+  mileage: 9.99
+  status: MyString
+  price: 9.99
+
+two:
+  licensePlate: MyString
+  mileage: 9.99
+  status: MyString
+  price: 9.99
